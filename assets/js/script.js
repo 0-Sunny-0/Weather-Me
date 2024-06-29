@@ -12,3 +12,25 @@ const cityHistory = document.getElementById('city-history');
 const currentWeather = document.getElementById('current-day-weather');
 const weeklyForecast = document.getElementById('5dayForecast');
 
+
+// Start of Functions
+
+// Updates local storage with previously entered City name and renders to page
+// to display previously searched cities. 
+
+function updateLocalStorage(cityName) {
+    if(!cityList.includes(cityName)) {
+        cityList.push(cityName);
+        localStorage.setItem('cities', JSON.stringify(cityList));
+        renderCityHistory();
+    }
+};
+
+
+
+
+// Event Listener for search button
+
+searchBtn.addEventListener('click', function(event){
+    event.preventDefault();
+});
