@@ -3,6 +3,9 @@
 // api key
 const key = "6537eee7248a70fa02f64336ea0d6b50";
 
+// link that will be needed, commented out for now
+// https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
+
 // search button
 const searchBtn = document.getElementById('searchBTN');
 
