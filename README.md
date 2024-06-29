@@ -11,8 +11,7 @@ Webpage designed to check for weather on a 5 day forecast.
 
 ## Visuals
 
-<img src="" alt="">
-<img src="" alt="">
+<img src="./assets/images/Landing-page.png" alt="image of landing page showing search bar and header that reads weather-dashboard">
 
 ## License
 
